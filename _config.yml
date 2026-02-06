@@ -5,21 +5,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   #International Workshop on Quantified Boolean Formulas and Beyond 2026 · Lisbon, Portugal
 
 minimal_mistakes_skin: default
-search: true
+#search: true
 
-# Build settings
+
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
+layout: splash
 
 include:
   - _pages
 
-# Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jemoji
   - jekyll-include-cache
