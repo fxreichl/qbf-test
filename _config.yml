@@ -10,7 +10,9 @@ minimal_mistakes_skin: default
 
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 layout: splash
+footer: false
 
 include:
   - _pages
